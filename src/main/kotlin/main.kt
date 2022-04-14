@@ -52,10 +52,10 @@ data class Product(var name: String, var weight: Int,var price: Int,var category
  fun prdct(List<String>){
 
  }
-fun names(name:String):Char{
+fun names(nam:String):Char{
     var w=0
-    name.forEach{x->
-        if((name.index%2)==0){
+    nam.forEach{x->
+        if((nam.index%2)==0){
 
         }
     }
